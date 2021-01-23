@@ -1,0 +1,121 @@
+body {
+  background-color: #fff;
+}
+img.d-block.w-100{
+  width: 100%; 
+  height: 400px;
+}
+img.card-img-top {
+  width:100%; 
+  height:200px;
+  border-radius: 0px;
+}
+hr.hrdeals {
+  border-top: 1px solid #ffffff;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #208898;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+.text-description {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.features-about {
+  text-align: center;
+  padding: 20px; 
+  line-height: 40px;
+}
+.features-about span {
+  color: #208898;
+}
+.features-about p {
+  font-size: 1.4rem;
+}
+.company-about {
+  padding: 10px;
+  justify-content: center;
+}
+.company-about i {
+  font-size: 36px;
+}
+.company-about p {
+  margin-top: 25px; 
+  color: #208898;
+  line-height: 20px; 
+  font-size: 18px; 
+  font-weight: bold;
+}
+.company-about span {
+  font-size: 17px; 
+  color: #777171;
+}
+.col-md-12.ce {
+  color: #208898;
+  line-height: 20px;
+  float:left;
+  font-style: italic;
+}
+.row.bgb {
+  background-color: #f7f7f7;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.col-md-4.cp a {
+  text-decoration: none;
+}
+.col-md-4.cp img {
+  width: 100%; 
+  height: 200px;
+}
+.col-md-4.cp img:hover {
+  transform: scale(1.1);
+  transition: all .3s ease;
+}
+.col-md-12.ced p {
+  padding: 20px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 24px;
+}
+.col-md-12.ced p span{
+  line-height: 30px;
+  text-align: center;
+  font-style: italic;
+  font-size: 25px;
+  color: #208898;
+}
+.img-col-hed {
+  background-color: white;
+}
+.img-col-hed p {
+  color: #464646;
+  padding: 10px;
+  text-align: center;
+}
+.col-md-12.gva a {
+  color: #208898;
+  text-decoration: none;
+  text-align: center;
+  font-size: 25px;
+}
+
