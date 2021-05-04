@@ -1,3 +1,4 @@
+//comment here
 <?php 
 // Initialize shopping cart class 
 include_once 'Cart.class.php'; 
